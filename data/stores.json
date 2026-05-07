@@ -1,0 +1,92 @@
+[
+  {
+    "storeName": "鶏めし処 とり○",
+    "address": "東京都渋谷区道玄坂 1-1-1",
+    "area": "渋谷",
+    "capacity": 4,
+    "budget": 4000,
+    "openingHours": "17:00-23:00",
+    "cuisine": "焼き鳥"
+  },
+  {
+    "storeName": "居酒屋 新○",
+    "address": "東京都渋谷区センター街 2-2-2",
+    "area": "渋谷",
+    "capacity": 6,
+    "budget": 3500,
+    "openingHours": "17:30-23:30",
+    "cuisine": "和食"
+  },
+  {
+    "storeName": "海鮮個室 海○",
+    "address": "東京都渋谷区宮益坂 3-3-3",
+    "area": "渋谷",
+    "capacity": 4,
+    "budget": 5000,
+    "openingHours": "18:00-23:00",
+    "cuisine": "海鮮"
+  },
+  {
+    "storeName": "イタリアン トラットリア",
+    "address": "東京都新宿区新宿 1-1-1",
+    "area": "新宿",
+    "capacity": 6,
+    "budget": 4500,
+    "openingHours": "17:00-23:00",
+    "cuisine": "イタリアン"
+  },
+  {
+    "storeName": "焼肉 黒牛",
+    "address": "東京都新宿区歌舞伎町 2-2-2",
+    "area": "新宿",
+    "capacity": 4,
+    "budget": 5500,
+    "openingHours": "17:30-23:30",
+    "cuisine": "焼肉"
+  },
+  {
+    "storeName": "スペイン居酒屋 アルコイリス",
+    "address": "東京都新宿区三丁目 3-3-3",
+    "area": "新宿",
+    "capacity": 8,
+    "budget": 4000,
+    "openingHours": "18:00-23:30",
+    "cuisine": "スペイン料理"
+  },
+  {
+    "storeName": "鶏料理 かみさん",
+    "address": "東京都恵比寿 1-1-1",
+    "area": "恵比寿",
+    "capacity": 4,
+    "budget": 3800,
+    "openingHours": "17:00-23:00",
+    "cuisine": "鶏料理"
+  },
+  {
+    "storeName": "和風ダイニング 月待",
+    "address": "東京都恵比寿 2-2-2",
+    "area": "恵比寿",
+    "capacity": 6,
+    "budget": 4200,
+    "openingHours": "17:30-23:00",
+    "cuisine": "和食"
+  },
+  {
+    "storeName": "フレンチビストロ ル・シャン",
+    "address": "東京都六本木 1-1-1",
+    "area": "六本木",
+    "capacity": 4,
+    "budget": 5800,
+    "openingHours": "18:00-23:30",
+    "cuisine": "フレンチ"
+  },
+  {
+    "storeName": "中華 龍華",
+    "address": "東京都六本木 2-2-2",
+    "area": "六本木",
+    "capacity": 6,
+    "budget": 3500,
+    "openingHours": "17:00-23:00",
+    "cuisine": "中華"
+  }
+]

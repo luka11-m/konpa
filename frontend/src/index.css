@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 24px;
+  color: #333;
+}
+
+.login-container,
+.register-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1,
+.register-container h1 {
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+button {
+  padding: 12px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover:not(:disabled) {
+  background: #5568d3;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #e74c3c;
+  padding: 10px;
+  background: #fadbd8;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.switch {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.link-btn {
+  background: none;
+  color: #667eea;
+  border: none;
+  padding: 0;
+  margin: 0 5px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.link-btn:hover {
+  background: none;
+}
+
+.home-container,
+.group-container,
+.payment-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  color: #667eea;
+}
+
+.logout-btn {
+  padding: 8px 16px;
+  font-size: 12px;
+}
+
+.content h2,
+.group-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.group-list {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.group-card {
+  padding: 20px;
+  border: 2px solid #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.group-card:hover {
+  border-color: #667eea;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+}
+
+.group-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.group-card p {
+  color: #666;
+  font-size: 14px;
+}
+
+.status {
+  color: #667eea;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  padding: 40px 20px;
+}
+
+.create-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.create-form {
+  gap: 10px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.cancel-btn {
+  background: #95a5a6;
+}
+
+.cancel-btn:hover:not(:disabled) {
+  background: #7f8c8d;
+}
+
+.back-btn {
+  background: none;
+  color: #667eea;
+  border: none;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.group-info {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.group-info h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.group-info ul {
+  list-style: none;
+}
+
+.group-info li {
+  padding: 8px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.invite-section {
+  background: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.invite-link {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  word-break: break-all;
+  font-size: 12px;
+  color: #666;
+}
+
+.copy-btn {
+  padding: 8px 16px;
+  font-size: 12px;
+  width: auto;
+}
+
+.conditions-btn {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.conditions-btn:disabled {
+  background: #ccc;
+}
+
+.conditions-form {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+}
+
+.checkbox,
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #666;
+}
+
+.checkbox input,
+.radio input {
+  cursor: pointer;
+}
+
+.payment-container {
+  text-align: center;
+}
+
+.payment-details {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.payment-details p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.payment-details h3 {
+  color: #667eea;
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.payment-note {
+  font-size: 12px;
+  color: #999;
+  margin-top: 20px;
+}
